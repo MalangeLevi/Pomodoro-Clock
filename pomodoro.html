@@ -1,0 +1,60 @@
+<html>
+<body>
+<div class="container-fluid">
+<div class='row'>
+<div class="col-md-6 col-md-offset-3 main-div">
+<h1> Pomodoro Clock</h1>
+<div class='row'>
+<div class= 'col-md-3 .col-md-offset-3'></div>
+<div class='row'>
+<div class= 'col-md-3 .col-md-offset-3'>
+<p id= 'teste' onclick ='teste()'>BREAK LENGTH</P>
+<div class ='row'>
+<p id='takeawaybreak' onclick='handler.takeawaybreak()' class='p-text'>-</p>
+<p id ='numberbreak' class= 'p-text'>5</p>
+<p id ='plusbreak' onclick='handler.plusbreak()' class='p-text'>+</p>
+</div>
+</div>
+
+<div class='col-md-3 .col-md-offset-3'>
+<P>SESSION LENGTH</P>
+<div class ='row'>
+<p id ='takeawaysession' onclick='handler.takeawaysession()' class='p-text'> - </p>
+<p id='numbersession' class='p-text'>25</p>
+<p id ='plussession' onclick='handler.plussession()' class='p-text'> + </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='row'>
+<div class="col-md-6 col-md-offset-3 main-second-div">
+<div id='swap' class='circle' onclick= 'changeClassName()'>
+<p>SESSION</p>
+<div id ='onOff' class ='row'>
+<p id='clock' class='p-text-second'>25</p>
+<p id='clockdot' class='p-text'>:</p>
+<p id='clocksecond' class='p-text-second'>0</p>
+<p id='clockseconds'class='p-text-second'>0</p>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="pomodoro.js"></script>
+<link href="pomodoro.css" rel="stylesheet">
+
+</body>
+</html>

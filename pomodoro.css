@@ -1,0 +1,73 @@
+h1{
+	text-align:center;
+	color:blue;
+}
+
+.main-div{
+	background-color:black;
+}
+.main-second-div{
+background-color:blue;
+}
+
+p{
+	display:inline-block;
+	text-align:center;
+	color: white;
+	cursor: pointer; cursor: hand;
+}
+.p-text{
+	text-align:right;
+	color: blue;
+	font-size: 50px;
+}
+
+.p-text-second{
+	text-align:right;
+	color: white;
+	font-size: 50px;
+}
+.circle{
+	cursor: pointer; cursor: hand;
+	margin: 0 auto;
+	width:300px;
+	height:300px;
+	border-radius:150px;
+	border-color: green;
+	font-size:20px;
+	color:#fff;
+	line-height:100px;
+	text-align:center;
+	background:#000;
+	background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+	}
+	
+	.circle-two{
+	cursor: pointer; cursor: hand;
+	margin: 0 auto;
+	width:300px;
+	height:300px;
+	border-radius:150px;
+	border-color: blue;
+	font-size:20px;
+	color:#fff;
+	line-height:100px;
+	text-align:center;
+	background:#00ff00;
+	background: radial-gradient(circle at 100px 100px, #5cabff, #ff0000);
+	}
+	
+	.circle-three{
+	cursor: pointer; cursor: hand;
+	margin: 0 auto;
+	width:300px;
+	height:300px;
+	border-radius:150px;
+	border-color: blue;
+	font-size:20px;
+	color:#000000;
+	line-height:100px;
+	text-align:center;
+	background:#ff66cc;
+	background: radial-gradient(circle at 100px 100px, #5cabff, #ccff66);
+	}
